@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4rem; /* Tamanho da fonte em telas menores */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+  }
+
+  .search-container {
+    flex-direction: column; /* Em telas menores, empilha os elementos */
+  }
+
+  .search-container input {
+    width: 25rem; /* Largura dos inputs em telas menores */
+    padding: 0.8rem; /* Espaçamento interno em telas menores */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+  }
+
+  .resultados-pesquisa {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+  }
+
+  .item-resultado {
+    display: flex;
+    flex-direction: row;
+    background: #fefefe8f;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 2px 2px 4px 3px rgb(40 40 40 / 26%);
+  }
+
+  .informações {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3.2rem; /* Tamanho da fonte em telas pequenas */
+    letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+  }
+
+  .search-container input {
+    width: 17rem; /* Largura total dos inputs em telas pequenas */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+  }
+
+  .search-container button {
+    padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
+    font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+  }
+
+  footer {
+    font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+  }
+}

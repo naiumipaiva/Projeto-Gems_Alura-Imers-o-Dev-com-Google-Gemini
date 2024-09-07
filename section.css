@@ -1,0 +1,84 @@
+.resultados-pesquisa {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 20px;
+  /*width: 60rem;
+  height: 60vh;*/
+  width: 60rem; /* Largura máxima da caixa de resultados */
+  height: 60vh; /* Altura máxima da caixa de resultados */
+}
+
+.item-resultado {
+  flex: 0 0 85%; /* Largura fixa para cada card */
+  margin: 10px;
+  flex-direction: row;
+  background: #fefefe8f;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 2px 2px 4px 3px rgb(40 40 40 / 26%);
+  width: 55vh;
+  overflow: hidden;
+}
+
+.topo {
+  display: flex;
+}
+
+.informações {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.informações h2 {
+  font-size: 1.5rem;
+  color: #212224;
+}
+
+.item-resultado img {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.base a {
+  font-weight: 500;
+  font-size: larger;
+  text-decoration: none;
+  color: #292929;
+  margin: 5px;
+}
+
+.base a:hover {
+  color: #fc889e;
+}
+
+.base .descricao-meta {
+  color: #212122;
+  margin: 0.5rem 0;
+  text-align: justify;
+}
+
+/* Estilizando a barra de rolagem para navegadores baseados em Webkit (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fefefe00; /* Cor de fundo da trilha */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fefefe8f; /* Cor da parte deslizante */
+  border-radius: 10px; /* Borda arredondada */
+}
