@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/b69cbca9-40c6-4df4-9d02-ce1c10579caf)
 ## Enciclopédia de Gems: Seu Guia Completo para o Universo de Steven Universe 
 
 ### Sobre o Projeto
