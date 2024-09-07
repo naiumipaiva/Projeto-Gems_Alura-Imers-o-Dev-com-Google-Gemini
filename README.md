@@ -1,0 +1,1 @@
+# Projeto-Gems_Alura-Imers-o-Dev-com-Google-Gemini
